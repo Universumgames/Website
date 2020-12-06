@@ -1,7 +1,37 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 10vw;
+  font-style: bold;
+  margin-top: 25vh;
+}
+
+.center{
+  text-align: center;
+  float: center;
+  position: relative;
+}
+
 .darkmode {
   background-color: rgb(37, 37, 37);
+  color: #f6f6f6;
+  fill: #f6f6f6;
 }
 
 .lightmode {
-  background-color: white;
+  background-color: #f6f6f6;
+  color: black;
+  fill: black;
+}
+
+#connectives{
+  margin-top: 15vh;
+}
+
+.connections{
+  width: 10%;
+  height: 10%;
+  margin: 1vw;
 }
