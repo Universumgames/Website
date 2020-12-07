@@ -16,7 +16,7 @@ h1{
 }
 
 .darkmode {
-  background-color: rgb(37, 37, 37);
+  background-color:#252525;
   color: #f6f6f6;
   fill: #f6f6f6;
 }
@@ -38,23 +38,41 @@ h1{
 }
 
 #github:hover{
-  fill: black;
+  fill: url(#githubDesktopGrad);
+  stroke-width: 0.7px;
+  stroke-linejoin: round;
+}
+
+#github.darkmode:hover{
+  stroke: white;
+}
+
+#github.lightmode:hover {
+  stroke: #303030;
 }
 
 #youtube:hover{
-  fill: red;
+  fill: url(#youtubeGrad);
 }
 
 #twitter:hover{
-  fill: #1DA1F2;
+  fill: url(#twitterGrad);
 }
 
-#mail:hover{
+#mail.darkmode:hover{
   fill: black;
 }
 
+#mail.lightmode{
+  fill: black;
+}
+
+#mail.lightmode:hover{
+  fill: darkgrey;
+}
+
 #twitch:hover{
-  fill: #6441a5;
+  fill: url(#twitchGrad);
 }
 
 #website:hover{
