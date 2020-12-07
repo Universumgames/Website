@@ -36,3 +36,27 @@ h1{
   height: 10%;
   margin: 1vw;
 }
+
+#github:hover{
+  fill: black;
+}
+
+#youtube:hover{
+  fill: red;
+}
+
+#twitter:hover{
+  fill: #1DA1F2;
+}
+
+#mail:hover{
+  fill: black;
+}
+
+#twitch:hover{
+  fill: #6441a5;
+}
+
+#website:hover{
+  fill: grey;
+}
