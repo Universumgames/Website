@@ -86,3 +86,19 @@ h1{
 #website:hover{
   fill: grey;
 }
+
+#contact{
+  stroke: white;
+}
+
+#contact.darkmode:hover{
+  stroke: darkgray;
+}
+
+#contact.lightmode{
+  stroke: black;
+}
+
+#contact.lightmode:hover{
+  stroke: darkgray;
+}
