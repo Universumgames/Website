@@ -1,0 +1,57 @@
+#github:hover {
+    fill: url(#githubDesktopGrad);
+    stroke-width: 0.7px;
+    stroke-linejoin: round;
+}
+
+#github.darkmode:hover {
+    stroke: white;
+}
+
+#github.lightmode:hover {
+    stroke: #303030;
+}
+
+#youtube:hover {
+    fill: red;
+}
+
+#twitter:hover {
+    fill: #1da1f2;
+}
+
+#mail.darkmode:hover {
+    fill: black;
+}
+
+#mail.lightmode {
+    fill: black;
+}
+
+#mail.lightmode:hover {
+    fill: darkgrey;
+}
+
+#twitch:hover {
+    fill: #9147ff;
+}
+
+#website:hover {
+    fill: grey;
+}
+
+#contact {
+    stroke: white;
+}
+
+#contact.darkmode:hover {
+    stroke: darkgray;
+}
+
+#contact.lightmode {
+    stroke: black;
+}
+
+#contact.lightmode:hover {
+    stroke: darkgray;
+}

@@ -1,0 +1,85 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    overflow: visible;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/* html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+body {
+    overflow-x: clip;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 10vw;
+    font-style: bold;
+}
+
+#frontPage {
+    height: 100vh;
+    position: static;
+}
+
+#centerContent {
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    margin-top: 50vh;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#content {
+    /* width: 80vw;
+    margin: auto;
+    float: center; */
+    left: 15vw;
+    right: 15vw;
+    position: absolute;
+}
+
+.darkmode {
+    background-color: #252525;
+    color: #f6f6f6;
+    fill: #f6f6f6;
+    --pieBackground: #252525;
+}
+
+.lightmode {
+    background-color: #f6f6f6;
+    color: black;
+    fill: black;
+    --pieBackground: #f6f6f6;
+}
+
+#connectives {
+    margin-top: 3vh;
+}
+
+.connections {
+    width: 10%;
+    height: 10%;
+}
+
+a {
+    margin-left: 1vw;
+    font-weight: bold;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: #9147ff;
+}
