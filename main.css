@@ -53,6 +53,9 @@ h1 {
     color: #f6f6f6;
     fill: #f6f6f6;
     --pieBackground: #252525;
+    --linkColorNew: greenyellow;
+    --linkColorVisited: #9147ff;
+    --pieFillColor: greenyellow;
 }
 
 .lightmode {
@@ -60,6 +63,9 @@ h1 {
     color: black;
     fill: black;
     --pieBackground: #f6f6f6;
+    --linkColorNew: #01c231;
+    --linkColorVisited: #5504ce;
+    --pieFillColor: #01c231;
 }
 
 #connectives {
@@ -77,9 +83,9 @@ a {
 }
 
 a:link {
-    color: greenyellow;
+    color: var(--linkColorNew);
 }
 
 a:visited {
-    color: #9147ff;
+    color: var(--linkColorVisited);
 }
