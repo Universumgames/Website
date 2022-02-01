@@ -42,6 +42,11 @@ pie.seventyfive {
         linear-gradient(90deg, var(--pieBackground) 50%, transparent 50%);
 }
 
+pie.ninety {
+    background-image: linear-gradient(220deg, transparent 50%, var(--pieFillColor) 50%),
+        linear-gradient(90deg, var(--pieBackground) 50%, transparent 50%);
+}
+
 pie.onehundred {
     background-image: none;
 }
