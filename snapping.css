@@ -1,0 +1,16 @@
+html,
+body {
+}
+
+#frontPage,
+#content,
+#skills {
+    scroll-snap-align: start;
+}
+
+.snapping {
+    scroll-snap-type: both mandatory;
+    scroll-snap-stop: always;
+    max-height: 98vh;
+    overflow-y: scroll;
+}

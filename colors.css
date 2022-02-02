@@ -1,0 +1,21 @@
+.darkmode {
+    background-color: #252525;
+    color: #f6f6f6;
+    fill: #f6f6f6;
+    --bg-color: #252525;
+    --pieBackground: #252525;
+    --linkColorNew: greenyellow;
+    --linkColorVisited: #9147ff;
+    --pieFillColor: greenyellow;
+}
+
+.lightmode {
+    background-color: #f6f6f6;
+    color: black;
+    fill: black;
+    --bg-color: #f6f6f6;
+    --pieBackground: #f6f6f6;
+    --linkColorNew: #01c231;
+    --linkColorVisited: #5504ce;
+    --pieFillColor: #01c231;
+}
