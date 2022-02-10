@@ -11,7 +11,6 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
-    background-color: var(--bg-color);
 }
 
 /* html {
@@ -59,16 +58,29 @@ h1 {
     position: -webkit-sticky;
     padding: 2ch;
     top: 0;
+    background-color: var(--bg-color);
 }
 
 #content {
     /* width: 80vw;
     margin: auto;
     float: center; */
-    left: 15vw;
-    width: 70vw;
-    right: 15vw;
+    left: 10vw;
+    max-width: 80vw;
+    right: 10vw;
     position: relative;
+    z-index: 50;
+}
+
+#cv {
+    background-color: var(--secondaryBG);
+    padding: 2ch;
+}
+
+#skills > p {
+    text-indent: -2ch;
+    margin-left: 5ch;
+    margin-right: 5ch;
 }
 
 #connectives {
@@ -98,5 +110,5 @@ a:visited {
     left: 0;
     top: 0;
     padding: 1ch;
-    z-index: 10;
+    z-index: 100;
 }
