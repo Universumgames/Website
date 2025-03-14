@@ -2,7 +2,7 @@
 @import url("snapping.css");
 
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
     text-decoration: none;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */

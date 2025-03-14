@@ -16,8 +16,8 @@
     fill: black;
     --bg-color: #f6f6f6;
     --pieBackground: #f6f6f6;
-    --linkColorNew: #01c231;
+    --linkColorNew: #008c23;
     --linkColorVisited: #5504ce;
-    --pieFillColor: #01c231;
+    --pieFillColor: #008c23;
     --secondaryBG: #ebe9e9;
 }
