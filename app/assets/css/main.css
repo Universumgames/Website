@@ -1,0 +1,114 @@
+@import url("./colors.css");
+@import url("./snapping.css");
+
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/* html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+h4 {
+    margin-bottom: 0.5ch;
+}
+
+h3 {
+    margin-bottom: 0.7ch;
+}
+
+body {
+    overflow-x: clip;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 10vw;
+    font-style: bold;
+}
+
+#frontPage {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    overflow: hidden;
+}
+
+#centerContent {
+    /* left: 50%;
+    text-align: center;
+    position: relative;
+    padding-top: 50vh;
+    transform: translateY(-25%) translateX(-50%); */
+}
+
+#headline {
+    position: sticky !important;
+    position: -webkit-sticky;
+    padding: 2ch;
+    top: 0;
+    background-color: var(--bg-color);
+}
+
+#content {
+    /* width: 80vw;
+    margin: auto;
+    float: center; */
+    left: 10vw;
+    max-width: 80vw;
+    right: 10vw;
+    position: relative;
+    z-index: 50;
+}
+
+#cv {
+    background-color: var(--secondaryBG);
+    padding: 2ch;
+}
+
+#skills > p {
+    text-indent: -2ch;
+    margin-left: 5ch;
+    margin-right: 5ch;
+}
+
+#connectives {
+    margin-top: 3vh;
+}
+
+.connections {
+    width: 10%;
+    height: 10%;
+}
+
+a {
+    margin-left: 1vw;
+    font-weight: bold;
+}
+
+a:link {
+    color: var(--linkColorNew);
+}
+
+a:visited {
+    color: var(--linkColorVisited);
+}
+
+.langSelect {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 1ch;
+    z-index: 100;
+}
