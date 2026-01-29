@@ -1,3 +1,36 @@
 {
-    "welcome": "Welcome to Nuxt 3"
+    "welcome": "Welcome to Nuxt 3",
+    "cv": {
+        "shortDescription": "Computer Science Student at Hochschule Niederrhein",
+        "projects": {
+            "typeTitles": {
+                "own": "Own Projects",
+                "university": "University Projects",
+                "contribution": "Collaboration Projects"
+            },
+            "eclipseTabs": "an Firefox Browser extension for an alternative Bookmark system",
+            "confman": "a Video-Conferencemanager foriOS and macOS",
+            "expoll": "a Doodle Polling alternative",
+            "qubePuzzle": "a 2D/3D puzzle game",
+            "tidile": "\"Time Indication Device ThroughIndirect Light Emission\" - an IoT clock with an ESP32 and Neopixels (individually addressable LEDs)",
+            "mt32": "a collection of helpful articles built with hugo"
+        },
+        "skills": {
+            "title": "My Skills",
+            "languages": "Languages",
+            "programmingLanguages": "Programming Languages",
+            "frameworksAndLibraries": "Frameworks & Libraries",
+            "toolsAndPlatforms": "Tools & Platforms",
+            "otherSkills": "Other Skills"
+        },
+        "footnoteLanguages": "... but to be honest, I think different programming languages (markup excluded) resemble more dialects rather than completely independent and different languages. (Programming-) Languages, just like Frameworks and libraries, develop fast or get deprecated and doesn't it result in the importance of rediscovering and learning new things or the ability of breaking complex things down into computer understandable instructions rather than pure \"paperknowledge\"? The mentionend dialects are just different variations of extremely similar origin, so learning new programming languages is just a Piece of cake...",
+        "hobbies":{
+            "title": "In my free time I like to...",
+            "items": {
+                "sailing": "Sail (with teaching and youth engagement)",
+                "programming": "Program",
+                "student": "Full time student"
+            }
+        }
+    }
 }

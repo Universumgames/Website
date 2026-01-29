@@ -23,24 +23,16 @@ export default defineNuxtConfig({
         },
       },
     },
-  }
+  },
 
-  //modules: ["@nuxtjs/i18n"],
-  /*i18n: {
-    debug: true,
+  modules: ['nuxt-svgo-loader', '@nuxtjs/i18n'],
+
+  i18n: {
     locales: [
       { code: 'en', file: 'en.json', language: 'en-US', name: 'English' },
       { code: 'de', file: 'de.json', language: 'de-DE', name: 'Deutsch' }
     ],
     defaultLocale: 'en',
     strategy: 'prefix_and_default',
-    lazy: true,
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'universegame_lang',
-      redirectOn: 'root'  // recommended
-    }
-  }*/,
-
-  modules: ['nuxt-svgo-loader']
+  },
 })

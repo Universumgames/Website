@@ -1,5 +1,5 @@
 <script setup>
-const { locale, locales } = useI18n();
+const { locale, locales, setLocale } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
 
 const availableLocales = computed(() => {
@@ -8,7 +8,7 @@ const availableLocales = computed(() => {
 </script>
 
 <template>
-  <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
-    {{ locale.name }}
-  </NuxtLink>
+  <a v-for="loc in availableLocales" :key="loc.code" @click="setLocale(loc.code)">
+    {{ loc.name }}
+    </a>
 </template>

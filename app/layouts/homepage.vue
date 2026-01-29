@@ -1,12 +1,12 @@
 <template>
   <div>
-    <LangSelect />
+    <LangSwitcher />
     <slot />
   </div>
 </template>
 
 <script lang="ts" setup>
-import LangSelect from '~/components/LangSelect.vue';
+import LangSwitcher from '~/components/LangSwitcher.vue';
 
 
 </script>
