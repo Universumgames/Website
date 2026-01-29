@@ -1,4 +1,3 @@
-@import url("./colors.css");
 @import url("./snapping.css");
 
 * {
@@ -103,12 +102,4 @@ a:link {
 
 a:visited {
     color: var(--linkColorVisited);
-}
-
-.langSelect {
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 1ch;
-    z-index: 100;
 }

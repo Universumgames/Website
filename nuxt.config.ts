@@ -11,16 +11,21 @@ export default defineNuxtConfig({
         {name: "description", content: "UniversumGames"},
         {name: "keywords", content: "universegame, developer, github"}
       ],
-      favicon: { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+      link: [{ rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.png' }]
     }
   },
 
+  vite:{
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "~/assets/css/main.scss";',
+        },
+      },
+    },
+  }
+
   //modules: ["@nuxtjs/i18n"],
-  css:[
-    '~/assets/css/main.css',
-    '~/assets/css/connectionsStyle.css',
-    '~/assets/css/pie.css'
-  ]
   /*i18n: {
     debug: true,
     locales: [

@@ -1,5 +1,4 @@
 <template>
-  
   <div>
     <NavBar />
     <slot />

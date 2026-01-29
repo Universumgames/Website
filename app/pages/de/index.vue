@@ -157,8 +157,14 @@ import IconGithub from '~/assets/svg/github.svg'
 import IconTwitter from '~/assets/svg/twitter.svg'
 import IconWeb from '~/assets/svg/website.svg'
 import IconMail from '~/assets/svg/mail.svg'
+
+definePageMeta({
+  layout: 'homepage',
+})
 </script>
 
-<style>
+<style lang="scss">
 
+@use '~/assets/css/connectionsStyle.scss';
+@use '~/assets/css/homepage_main.scss';
 </style>

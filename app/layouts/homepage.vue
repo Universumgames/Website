@@ -1,11 +1,13 @@
 <template>
   <div>
-    <NavBar />
+    <LangSelect />
     <slot />
   </div>
 </template>
 
 <script lang="ts" setup>
+import LangSelect from '~/components/LangSelect.vue';
+
 
 </script>
 

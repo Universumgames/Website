@@ -1,0 +1,61 @@
+$text-color: var(--text-color);
+$text-color-dimmed: var(--text-color-dimmed);
+$bg-color: var(--bg-color);
+$bg-color-dimmed: var(--bg-color-dimmed);
+$secondary-color: var(--secondary-color);
+$primary-color: var(--primary-color);
+$blank-text-color: var(--blank-text-color);
+$alert-color: var(--alert-color);
+
+$default-border-radius: var(--default-border-radius);
+$aggressive-border-radius: var(--aggressive-border-radius);
+$default-padding: var(--default-padding);
+
+html{
+  --default-border-radius: 1ch;
+  --aggressive-border-radius: 1rem;
+  --default-padding: 1ch;
+}
+
+.lightmode {
+  --text-color: #0f151b;
+  --text-color-dimmed: #182430;
+  --bg-color: #f5f5f5;
+  --bg-color-dimmed: #dddddd;
+  --secondary-color: #dddddd;
+  --primary-color: #42b983;
+  --blank-text-color: var(--bg-color);
+  --alert-color: #ba4b4a;
+
+  // old colors
+  --pieBackground: $bg-color;
+    --linkColorNew: $primary-color;
+    --linkColorVisited: $text-color-dimmed;
+    --pieFillColor: $primary-color;
+    --secondaryBG: $bg-color-dimmed;
+
+    background-color: $bg-color;
+    color: $text-color;
+    fill: $text-color;
+}
+
+.darkmode {
+  --text-color: whitesmoke;
+  --text-color-dimmed: #a9a9a9;
+  --bg-color: #1c2229;
+  --bg-color-dimmed: #1a1b1c;
+  --secondary-color: var(--bg-color-dimmed);
+  --primary-color: #42b983;
+  --blank-text-color: $bg-color;
+  --alert-color: #ba4b4a;
+
+  // old colors
+    --pieBackground: var(--bg-color);
+    --linkColorNew: var(--primary-color);
+    --linkColorVisited: var(--text-color-dimmed);
+    --pieFillColor: var(--primary-color);
+    --secondaryBG: var(--bg-color-dimmed);
+    background-color: $bg-color;
+    color: $text-color;
+    fill: $text-color;
+}
