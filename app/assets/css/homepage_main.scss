@@ -36,7 +36,7 @@ h1 {
 }
 
 #frontPage {
-    height: 97vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -58,6 +58,22 @@ h1 {
     padding: 2ch;
     top: 0;
     background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headline h2 {
+    margin-top: 0.2em;
+}
+
+#name {
+    display: inline-block;
+}
+
+#projects_page {
+    font-size: 1.2rem;
+    color: var(--linkColorNew);
 }
 
 #content {
@@ -80,15 +96,6 @@ h1 {
     text-indent: -2ch;
     margin-left: 5ch;
     margin-right: 5ch;
-}
-
-#connectives {
-    margin-top: 3vh;
-}
-
-.connections {
-    width: 10%;
-    height: 10%;
 }
 
 a {

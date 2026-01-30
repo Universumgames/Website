@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['nuxt-svgo-loader', '@nuxtjs/i18n'],
+  modules: ['nuxt-svgo-loader', '@nuxtjs/i18n', '@nuxt/image'],
 
   i18n: {
     locales: [

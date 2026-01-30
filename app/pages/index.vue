@@ -3,6 +3,8 @@ import IconGithub from '~/assets/svg/github.svg'
 import IconTwitter from '~/assets/svg/twitter.svg'
 import IconWeb from '~/assets/svg/website.svg'
 import IconMail from '~/assets/svg/mail.svg'
+import IconIdea from '~/assets/svg/idea.svg'
+import IconContact from '~/assets/svg/contact.svg'
 import { cvSkills, cvProjects, CVProjectType } from '~/assets/data/cv'
 import SkillLevel from '~/components/cv/SkillLevel.vue'
 import SkillList from '~/components/cv/SkillList.vue'
@@ -20,45 +22,51 @@ definePageMeta({
 </style>
 
 <template>
-    <div class="snapping">
+    <div>
         <div id="frontPage">
             <div id="centerContent">
                 <h1>UniversumGames</h1>
 
                 <div id="connectives">
-                    <a href="/github.html" target="_blank" id="github">
+                    <a href="https://github.com/Universumgames" target="_blank" id="github">
                         <IconGithub />
                     </a>
-                    <a href="/twitter.html" target="_blank" id="twitter">
+                    <!----<a href="/twitter/index.html" target="_blank" id="twitter">
                         <IconTwitter />
+                    </a>-->
+                    <NuxtLink href="/projects" id="projects">
+                        <IconIdea />
+                    </NuxtLink>
+                    <a href="https://mt32.net">
+                        <NuxtImg src="/images/mt32.net.png" alt="MT32.net Logo" id="mt32_logo" class="connections"/>
                     </a>
-                    <a href="/index.html" id="website">
-                        <IconWeb />
-                    </a>
-                    <a href="/mail.html" target="_blank" id="mail">
-                        <IconMail />
+                    <a href="/mail/index.html" target="_blank" id="contact">
+                        <IconContact />
                     </a>
                 </div>
             </div>
         </div>
         <div id="content">
             <div id="headline">
-                <h2 style="margin-bottom: 0.2rem">UniversumGames</h2>
-                <small>- {{ t("cv.shortDescription") }}</small>
+                <div id="name">
+                    <h2 style="margin-bottom: 0.2rem">UniversumGames</h2>
+                    <small>- {{ t("cv.shortDescription") }}</small>
+                </div>
+                <NuxtLink to="/projects" id="projects_page">{{  t("cv.projects.linkTitle") }}</NuxtLink>
             </div>
 
             <div id="cv">
                 <div id="projects">
                     <h3>{{ t("cv.projects.typeTitles.own") }}</h3>
                     <ul>
-                        <li v-for="project in cvProjects.filter(p => p.type === CVProjectType.Personal)" :key="project.name">
+                        <li v-for="project in cvProjects.filter(p => p.type === CVProjectType.Personal)"
+                            :key="project.name">
                             <a :href="project.link">{{ project.name }}</a> - {{ t(project.descriptionKey) }}
                         </li>
                     </ul>
                     <h3>{{ t("cv.projects.typeTitles.university") }}</h3>
                     <ul>
-                        <li v-for="project in cvProjects.filter(p => p.type === CVProjectType.Uni)"
-                            :key="project.name">
+                        <li v-for="project in cvProjects.filter(p => p.type === CVProjectType.Uni)" :key="project.name">
                             <a :href="project.link">{{ project.name }}</a> - {{ t(project.descriptionKey) }}
                         </li>
                     </ul>
@@ -71,7 +79,7 @@ definePageMeta({
                     </ul>
                 </div>
 
-                <SkillList/>
+                <SkillList />
                 <div id="freetime">
                     <h3>{{ t("cv.hobbies.title") }}</h3>
                     <ul>

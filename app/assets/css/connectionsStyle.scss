@@ -1,57 +1,46 @@
+#connectives {
+    margin-top: 3vh;
+}
+
+.connections {
+    width: 10%;
+    height: 10%;
+}
+
 #github:hover {
     fill: url(#githubDesktopGrad);
     stroke-width: 0.7px;
     stroke-linejoin: round;
 }
 
-#github.darkmode:hover {
-    stroke: white;
-}
-
-#github.lightmode:hover {
-    stroke: #303030;
-}
-
-#youtube:hover {
-    fill: red;
-}
-
-#twitter:hover {
-    fill: #1da1f2;
-}
-
-#mail.darkmode:hover {
-    stroke: black;
-}
-
-#mail {
-    stroke: black;
-}
-
-#mail:hover {
-    stroke: darkgrey;
-}
-
-#twitch:hover {
-    fill: #9147ff;
-}
-
-#website:hover {
-    fill: grey;
-}
-
 #contact {
-    stroke: white;
+    fill: white;
 }
 
-#contact.darkmode:hover {
-    stroke: darkgray;
+.darkmode #contact:hover {
+    fill: darkgray;
 }
 
-#contact.lightmode {
-    stroke: black;
+.lightmode #contact {
+    fill: black;
 }
 
-#contact.lightmode:hover {
-    stroke: darkgray;
+.lightmode #contact:hover {
+    fill: darkgray;
+}
+
+.darkmode #mt32_logo {
+    filter: brightness(100)
+}
+
+#mt32_logo:hover {
+    filter: brightness(1)
+}
+
+.lightmode #mt32_logo {
+    filter: brightness(0)
+}
+
+#projects:hover {
+    fill: gold;
 }

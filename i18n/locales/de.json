@@ -3,6 +3,7 @@
     "cv":{
         "shortDescription": "Informatikstudent an der Hochschule Niederrhein",
         "projects": {
+            "linkTitle": "Zu meiner Projektseite",
             "typeTitles": {
                 "own": "Eigene Projekte",
                 "university": "Universitätsprojekte",
@@ -21,7 +22,7 @@
             "programmingLanguages": "Programmiersprachen",
             "frameworksAndLibraries": "Frameworks & Bibliotheken",
             "toolsAndPlatforms": "Werkzeuge & Plattformen",
-            "otherSkills": "Andere Fähigkeiten"
+            "otherSkills": "Sonstige Fähigkeiten/Kenntnisse"
         },
         "footnoteLanguages": "... wobei ich finde, dass Programmiersprachen (Markupsprachen hier ausgeschlossen) eher vergleichbar mit Dialekten als eigenen unabhängigen Sprachen sind und diese, genau wie  Frameworks und Bibliotheken, sich schnell ändern können oder deprecated werden. Wichtiger ist da ja eigentlich das Herunterbrechen seiner Vorstellungen und Wünsche in für den Computer verständliche Anweisungen, egal in welchem Dialekt man ihm es \"erklären\" muss... die kann man sich ja in der Regeln recht einfach aneignen...",
         "hobbies": {

@@ -26,7 +26,8 @@ const cvSkills: CVSkill[] = [
     { name: "HTML/CSS", level: 4, section: CVSection.Programming_Languages },
     { name: "JavaScript/TypeScript", level: 4, section: CVSection.Programming_Languages },
     { name: "SQL", level: 3, section: CVSection.Programming_Languages },
-    { name: "Swift", level: 2, section: CVSection.Programming_Languages },
+    { name: "Swift(UI)", level: 3, section: CVSection.Programming_Languages },
+    { name: "Python", level: 2, section: CVSection.Programming_Languages },
     { name: "PHP", level: 1, section: CVSection.Programming_Languages },
 
     // Frameworks and Libraries
@@ -42,6 +43,11 @@ const cvSkills: CVSkill[] = [
     { name: "Windows", level: 5, section: CVSection.Tools_and_Platforms },
     { name: "macOS", level: 3, section: CVSection.Tools_and_Platforms },
     
+    { name: "OIDC", level: 2, section: CVSection.Other_Skills },
+    { name: "JWT", level: 3, section: CVSection.Other_Skills },
+    { name: "OAuth2", level: 2, section: CVSection.Other_Skills },
+    { name: "REST APIs", level: 4, section: CVSection.Other_Skills },
+    { name: "Agile", level: 4, section: CVSection.Other_Skills }
 ];
 
 export enum CVProjectType {

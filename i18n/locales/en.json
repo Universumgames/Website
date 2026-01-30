@@ -3,6 +3,7 @@
     "cv": {
         "shortDescription": "Computer Science Student at Hochschule Niederrhein",
         "projects": {
+            "linkTitle": "To my Projects Page",
             "typeTitles": {
                 "own": "Own Projects",
                 "university": "University Projects",
@@ -21,7 +22,7 @@
             "programmingLanguages": "Programming Languages",
             "frameworksAndLibraries": "Frameworks & Libraries",
             "toolsAndPlatforms": "Tools & Platforms",
-            "otherSkills": "Other Skills"
+            "otherSkills": "Other Skills/Knowledge"
         },
         "footnoteLanguages": "... but to be honest, I think different programming languages (markup excluded) resemble more dialects rather than completely independent and different languages. (Programming-) Languages, just like Frameworks and libraries, develop fast or get deprecated and doesn't it result in the importance of rediscovering and learning new things or the ability of breaking complex things down into computer understandable instructions rather than pure \"paperknowledge\"? The mentionend dialects are just different variations of extremely similar origin, so learning new programming languages is just a Piece of cake...",
         "hobbies":{
