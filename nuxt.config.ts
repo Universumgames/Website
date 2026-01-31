@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         {name: "description", content: "UniversumGames"},
         {name: "keywords", content: "universegame, developer, github"}
       ],
-      link: [{ rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.png' }]
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png?v=2' }]
     }
   },
 

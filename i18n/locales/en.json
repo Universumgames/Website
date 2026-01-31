@@ -25,13 +25,30 @@
             "otherSkills": "Other Skills/Knowledge"
         },
         "footnoteLanguages": "... but to be honest, I think different programming languages (markup excluded) resemble more dialects rather than completely independent and different languages. (Programming-) Languages, just like Frameworks and libraries, develop fast or get deprecated and doesn't it result in the importance of rediscovering and learning new things or the ability of breaking complex things down into computer understandable instructions rather than pure \"paperknowledge\"? The mentionend dialects are just different variations of extremely similar origin, so learning new programming languages is just a Piece of cake...",
-        "hobbies":{
+        "hobbies": {
             "title": "In my free time I like to...",
             "items": {
                 "sailing": "Sail (with teaching and youth engagement)",
                 "programming": "Program",
                 "student": "Full time student"
             }
+        }
+    },
+    "projects": {
+        "confman": {
+            "detailedDescription": "Online Meetings get more important every day, the pandemic only increased the transition speed like gasoline. Many of us have dozen of Online Meetings. Some store the access Data in small text files or add them to their Calendar events, but there is no organized, beautiful and synchronized way of combining the access data to all sorts of Meeting Tools in one App. That's what this app offers. Save your various Meetings in this app and it will be synchronized across all your devices and, with a simple click, you join them as easily as ever."
+        },
+        "expoll": {
+            "detailedDescription": "Expoll is a voting website similar to other well-known voting/polling websites. We tried to combine both in a neat small and easy-to-use website. Unlike the well-known platforms, who delete polls after a quite short time, or where you have to be logged in with an active session to even get the chance to vote for something withing a few minutes, we are trying to keep every vote possible. It is also available as an iOS and self-hostable, instructions are available via the git repository."
+        },
+        "eclipsetabs": {
+            "detailedDescription": "A simple Firefox extension that replaces the default bookmark system with a more modern approach. Bookmarks are stored in a tree structure and can be linked to open tabs, easily hidden with one simple click and reorganized by dragging them around. Each window can be saved as a session and restored later. The extension also offers a search function and the ability to import and export bookmarks."
+        },
+        "soundshelf": {
+            "detailedDescription": "Organize hypnosis sessions and guided audio—your way. \nThis app is designed to help you manage hypnosis files, guided sessions, and spoken audio with clarity and structure. Instead of scrolling through endless filenames, you can tag, filter, and group your audio exactly how you need it. \nPerfect for Hypnosis & Guided Audio\nHypnosis libraries often grow quickly and come in many variations—inductions, deepeners, themes, voices, and session lengths. With this app, you can:\n• Tag sessions by topic, voice, duration, or technique\n• Create playlists for daily routines, sleep sessions, or specific goals\n• Instantly filter your library using multiple tags\nCore Features\n• Flexible audio import\nAdd files via the Files app, share audio directly into the app, or copy files into the app’s folder.\n• Custom tagging system\nCreate your own tags to organize hypnosis sessions, meditations, or any spoken audio.\n• Dynamic playlists\nBuild playlists that automatically update based on selected tags.\n• iCloud sync\nYour audio files, tags, and playlists stay in sync across all your devices.\n• Privacy-first\nYour audio stays private in iCloud—no accounts, no streaming, no tracking.\nWhile it’s ideal for organizing hypnosis and guided sessions, the app also works great for audiobooks, lectures, recordings, and music files."
+        },
+        "qubepuzzle": {
+            "detailedDescription": "Qube Puzzle is a 2D/3D puzzle game where the player has to solve various puzzles by manipulating cubes in a 3D space. The game features multiple levels with increasing difficulty, requiring players to think critically and spatially to complete each challenge. This game was developed as a project during my studies in a group of fellow students. The focus was on creating a small simple prototype in C++ using SDL2 for rendering and input handling."
         }
     }
 }

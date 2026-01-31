@@ -1,6 +1,6 @@
 {
     "welcome": "Willkommen zu Nuxt 3",
-    "cv":{
+    "cv": {
         "shortDescription": "Informatikstudent an der Hochschule Niederrhein",
         "projects": {
             "linkTitle": "Zu meiner Projektseite",
@@ -32,6 +32,23 @@
                 "programming": "Programmieren",
                 "student": "Vollzeitstudent"
             }
+        }
+    },
+    "projects": {
+        "confman": {
+            "detailedDescription": "Online-Meetings werden von Tag zu Tag wichtiger, die Pandemie hat den Wandel nur noch beschleunigt. Viele von uns haben Dutzende von Online-Meetings. Einige speichern die Zugangsdaten in kleinen Textdateien oder fügen sie ihren Kalenderereignissen hinzu, aber es gibt keine organisierte, übersichtliche und synchronisierte Möglichkeit, die Zugangsdaten für alle Arten von Meeting-Tools in einer App zu kombinieren. Genau das bietet diese App. Speichern Sie Ihre verschiedenen Meetings in dieser App, und sie werden auf allen Ihren Geräten synchronisiert. Mit einem einfachen Klick können Sie dann so einfach wie nie zuvor daran teilnehmen."
+        },
+        "expoll": {
+            "detailedDescription": "Expoll ist eine Abstimmungswebsite, die anderen bekannten Abstimmungs-/Umfrage-Websites ähnelt. Wir haben versucht, beides in einer übersichtlichen, kleinen und benutzerfreundlichen Website zu kombinieren. Im Gegensatz zu den bekannten Plattformen, die Umfragen nach relativ kurzer Zeit löschen oder bei denen man mit einer aktiven Sitzung angemeldet sein muss, um überhaupt die Möglichkeit zu haben, innerhalb weniger Minuten für etwas zu stimmen, versuchen wir, jede Stimme zu berücksichtigen. Die Website ist auch als iOS-Version und selbst hostbar verfügbar. Anweisungen dazu finden Sie im Git-Repository."
+        },
+        "eclipsetabs": {
+            "detailedDescription": "Eine einfache Firefox-Erweiterung, die das Standard-Lesezeichensystem durch einen moderneren Ansatz ersetzt. Lesezeichen werden in einer Baumstruktur gespeichert und können mit geöffneten Tabs verknüpft, mit einem einfachen Klick ausgeblendet und durch Ziehen neu angeordnet werden. Jedes Fenster kann als Sitzung gespeichert und später wiederhergestellt werden. Die Erweiterung bietet außerdem eine Suchfunktion sowie die Möglichkeit, Lesezeichen zu importieren und zu exportieren."
+        },
+        "soundshelf": {
+            "detailedDescription": "Organisieren Sie Hypnosesitzungen und geführte Audioaufnahmen ganz nach Ihren Wünschen.\nDiese App wurde entwickelt, um Ihnen dabei zu helfen, Hypnosedateien, geführte Sitzungen und gesprochene Audioaufnahmen übersichtlich und strukturiert zu verwalten. Anstatt endlos durch Dateinamen zu scrollen, können Sie Ihre Audiodateien genau nach Ihren Bedürfnissen taggen, filtern und gruppieren.\nPerfekt für Hypnose und geführte Audioaufnahmen\nHypnose-Bibliotheken wachsen oft schnell und sind in vielen Variationen erhältlich – Induktionen, Vertiefungen, Themen, Stimmen und Sitzungslängen. Mit dieser App können Sie:\n• Sitzungen nach Thema, Stimme, Dauer oder Technik taggen.\n• Wiedergabelisten für tägliche Routinen, Schlafsitzungen oder bestimmte Ziele erstellen.\n• Ihre Bibliothek mithilfe mehrerer Tags sofort filtern.\nKernfunktionen\n• Flexibler Audioimport\nFügen Sie Dateien über die Datei-App hinzu, teilen Sie Audiodateien direkt in der App oder kopieren Sie Dateien in den Ordner der App.\n• Benutzerdefiniertes Tagging-System\nErstellen Sie Ihre eigenen Tags, um Hypnosesitzungen, Meditationen oder andere gesprochene Audiodateien zu organisieren.\n• Dynamische Wiedergabelisten\nErstellen Sie Wiedergabelisten, die basierend auf ausgewählten Tags automatisch aktualisiert werden.\n• iCloud-Synchronisierung\nIhre Audiodateien, Tags und Wiedergabelisten bleiben auf allen Ihren Geräten synchronisiert.\n• Datenschutz an erster Stelle\nIhre Audiodateien bleiben in iCloud privat – keine Konten, kein Streaming, keine Nachverfolgung.\nDie App eignet sich ideal zum Organisieren von Hypnose- und geführten Sitzungen, funktioniert aber auch hervorragend für Hörbücher, Vorträge, Aufnahmen und Musikdateien.\n"
+        },
+        "qubepuzzle": {
+            "detailedDescription": "Qube Puzzle ist ein 2D/3D-Puzzlespiel, bei dem der Spieler verschiedene Rätsel lösen muss, indem er Würfel in einem 3D-Raum manipuliert. Das Spiel bietet mehrere Level mit zunehmendem Schwierigkeitsgrad, die von den Spielern kritisches und räumliches Denken erfordern, um jede Herausforderung zu meistern. Dieses Spiel wurde als Projekt während meines Studiums in einer Gruppe von Kommilitonen entwickelt. Der Fokus lag darauf, einen kleinen einfachen Prototypen in C++ unter Verwendung von SDL2 für Rendering und Eingabeverarbeitung zu erstellen."
         }
     }
 }

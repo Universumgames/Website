@@ -15,4 +15,8 @@
 
 <style lang="scss">
 @use '~/assets/css/nav.scss';
+
+.desktop{
+  flex-wrap: wrap;
+}
 </style>

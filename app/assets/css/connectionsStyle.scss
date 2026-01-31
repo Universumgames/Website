@@ -33,12 +33,12 @@
     filter: brightness(100)
 }
 
-#mt32_logo:hover {
-    filter: brightness(1)
-}
-
 .lightmode #mt32_logo {
     filter: brightness(0)
+}
+
+#mt32_logo:hover {
+    filter: brightness(1)
 }
 
 #projects:hover {
